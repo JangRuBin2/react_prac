@@ -17,9 +17,17 @@ function App() {
         >
           Learn React
         </a>
+        <p>나는 짱이다</p>
       </header>
     </div>
   );
 }
-
+function test() {
+  if(App) {
+    return <div>
+      대머리
+    </div>
+  }
+}
 export default App;
+
