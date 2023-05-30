@@ -1,0 +1,4 @@
+{
+  // 바벨 설정
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
