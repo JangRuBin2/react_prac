@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import test from './test.js'
 
 function App() {
   return (
@@ -22,12 +23,5 @@ function App() {
     </div>
   );
 }
-function test() {
-  if(App) {
-    return <div>
-      대머리
-    </div>
-  }
-}
+test()
 export default App;
-
