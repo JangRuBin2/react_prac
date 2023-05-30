@@ -9,6 +9,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   module: {
+    // 로더 설정 - 특정 유형 파일 변환, 처리 담당
     rules: [
       {
         test: /\.js$/,
