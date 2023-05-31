@@ -23,4 +23,9 @@ module.exports = {
       // 다른 리소스에 대한 로더 설정
     ],
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 3000,
+    open: true,
+  },
 };
